@@ -24,5 +24,9 @@ setInterval(()=>{
     document.body.style.backgroundPosition = 'center'
     document.body.style.backgroundRepeat = 'no-repeat'
     document.getElementById('color').innerHTML = `${rightColor}  ${leftColor}`
-    document.getElementById('time').innerHTML = new Date()
+
 }, 500)
+
+setInterval(()=>{
+    document.getElementById('time').innerHTML = new Date()
+}, 1000)
