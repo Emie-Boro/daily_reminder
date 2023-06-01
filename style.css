@@ -14,3 +14,7 @@ body{
     border: 2px red solid;
     font-size: 18px;
 }
+.profile{
+    display: flex;
+    flex-direction: row;
+}
