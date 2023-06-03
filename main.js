@@ -14,8 +14,10 @@ setInterval(()=>{
     let ampm = null;
     if(new Date().getHours >= '12') {
         ampm = 'Good Afternoon'
+        document.title = 'Good Afternoon'
     } else{
         ampm = 'Good Morning'
+        document.title = 'Good Morning'
     }
     const greet = document.getElementById('greet')
     greet.innerHTML = ampm;
